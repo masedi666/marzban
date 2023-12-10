@@ -6,6 +6,9 @@ read -rp "Masukkan Domain: " domain
 echo "$domain" > /root/domain
 domain=$(cat /root/domain)\
 
+#email
+read -rp "Masukkan Email anda: " email
+
 #Preparation
 clear
 cd;
