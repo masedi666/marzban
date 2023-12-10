@@ -100,7 +100,7 @@ wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/masedi666/
 wget -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/masedi666/marzban/main/xray.conf"
 systemctl enable nginx
 mkdir -p /var/www/html
-echo "<pre>Powered by EdyDev | Telegram : @kangbacox</pre>" > /var/www/html/index.html
+echo "<pre>Powered by Edikurbot | Telegram : @edikurbot</pre>" > /var/www/html/index.html
 systemctl start nginx
 
 #install socat
@@ -140,7 +140,7 @@ sudo bash /root/warp -y
 #finishing
 apt autoremove -y
 systemctl restart nginx
-rm /root/edy.sh
+rm /root/install.sh
 apt clean
 marzban restart
 
