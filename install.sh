@@ -57,7 +57,7 @@ timedatectl set-timezone Asia/Jakarta;
 sudo bash -c "$(curl -sL https://github.com/Gozargah/Marzban-scripts/raw/master/marzban.sh)" @ install
 
 #Install Subs
-wget https://cdn.jsdelivr.net/gh/masedi666/marzban-templates@master/template-01/index.html
+wget -N -P /opt/marzban https://cdn.jsdelivr.net/gh/masedi666/marzban-templates@master/template-01/index.html
 
 #install env
 wget -O /opt/marzban/.env "https://raw.githubusercontent.com/masedi666/marzban/main/env"
